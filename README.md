@@ -1,30 +1,41 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+The original name for this application was The Significant Other Usage Meter and its purpose was to allow one significant other to create todo lists and notify the other significant person that the task was done. This would allow both "others" to prove the value of the other significant asset. In essence this application seeks to quickly and affectivly mediate misunderstandings created by miscomunication. It also seeks to decrease the amount of reminders to get tasks completed. When the asset completes the task the other significant will recieve a notification of completed task thus decreaseing the amount of "nagging" reminders.
 
-{Provide a description of your app.  Describe how to use the app.}
+{Provide a description of your app. Describe how to use the app.}
 
 {Describe your purpose for creating this app.}
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the app running and a walkthrough of the code.}
-
 [Software Demo Video](http://youtube.link.goes.here)
 
-# Development Environment
+# Development Environment (2023)
 
-{Describe the tools that you used to develop the app}
+---
 
-{Describe the programming language that you used and any libraries.}
+- Visual Studio Code (VSCode)
+- Android Studio
+- Notepad ++
+
+# Technologies (2023)
+
+- TypeScript
+- JavaScript
+- React Native
+- Sqlite 3
+- Windows 11
+- GitHub
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+- [React Native](https://reactnative.dev/)
+- [Type Script](https://www.typescriptlang.org/)
+- [Android Studio](https://developer.android.com/studio)
+- [Sqlite](https://sqlite.org/index.html)
 
 # Future Work
 
 {Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+
+- Item 1
+- Item 2
+- Item 3

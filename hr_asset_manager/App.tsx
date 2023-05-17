@@ -6,8 +6,11 @@
  */
 
 import React from 'react';
+
 import type {PropsWithChildren} from 'react';
 import {
+  Alert,
+  Button,
   SafeAreaView,
   ScrollView,
   StatusBar,
@@ -29,6 +32,18 @@ type SectionProps = PropsWithChildren<{
   title: string;
 }>;
 
+type MyComponent = PropsWithChildren<{
+  title: string;
+}>;
+
+function MyComponent({title}: MyComponent): JSX.Element {
+  return (
+    <View style={styles.sectionContainer}>
+      <Text>{title}</Text>
+    </View>
+  );
+}
+
 function Section({children, title}: SectionProps): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
   return (
@@ -39,7 +54,8 @@ function Section({children, title}: SectionProps): JSX.Element {
           {
             color: isDarkMode ? Colors.white : Colors.black,
           },
-        ]}>
+        ]}
+      >
         {title}
       </Text>
       <Text
@@ -48,7 +64,8 @@ function Section({children, title}: SectionProps): JSX.Element {
           {
             color: isDarkMode ? Colors.light : Colors.dark,
           },
-        ]}>
+        ]}
+      >
         {children}
       </Text>
     </View>
@@ -76,6 +93,9 @@ function App(): JSX.Element {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
+          <MyComponent title="Custom Component">
+            This is my first custom control
+          </MyComponent>
           <Section title="Step One">
             Edit <Text style={styles.highlight}>App.tsx</Text> to change this
             screen and then come back to see your edits.
@@ -86,11 +106,15 @@ function App(): JSX.Element {
           <Section title="Debug">
             <DebugInstructions />
           </Section>
-          <Section title="Learn More">
-            Read the docs to discover what to do next:
+          <Section title="Super Difficult">
+            This is harder than I thought it would be
           </Section>
           <Section title="Test">
             This is Aaron's first React Native Edit
+            <Button
+              title="Left button"
+              onPress={() => Alert.alert('Left button pressed')}
+            />
           </Section>
           <LearnMoreLinks />
         </View>
