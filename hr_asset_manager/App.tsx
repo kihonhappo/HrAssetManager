@@ -6,6 +6,8 @@
  */
 
 import React from 'react';
+import {useState, useEffect} from 'react';
+import SQLite from 'react-native-sqlite-storage';
 
 import type {PropsWithChildren} from 'react';
 import {
@@ -26,7 +28,7 @@ import {
   Header,
   LearnMoreLinks,
   ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+} from './src/components/';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -46,6 +48,7 @@ function MyComponent({title}: MyComponent): JSX.Element {
 
 function Section({children, title}: SectionProps): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
+
   return (
     <View style={styles.sectionContainer}>
       <Text
@@ -87,12 +90,14 @@ function App(): JSX.Element {
       />
       <ScrollView
         contentInsetAdjustmentBehavior="automatic"
-        style={backgroundStyle}>
+        style={backgroundStyle}
+      >
         <Header />
         <View
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          }}>
+          }}
+        >
           <MyComponent title="Custom Component">
             This is my first custom control
           </MyComponent>
