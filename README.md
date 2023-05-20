@@ -1,6 +1,6 @@
 # Overview
 
-The original name for this application was The Significant Other Usage Meter and its purpose was to allow one significant other to create todo lists and notify the other significant person that the task was done. This would allow both "others" to prove the value of the other significant asset. In essence this application seeks to quickly and affectivly mediate misunderstandings created by miscomunication. It also seeks to decrease the amount of reminders to get tasks completed. When the asset completes the task the other significant will recieve a notification of completed task thus decreaseing the amount of "nagging" reminders.
+The original name for this application was The Significant Other Usage Meter and its purpose was to allow one significant other to create todo lists and notify the other significant person that the task was done. This would allow both "others" to prove the value of the other significant asset. In essence this application seeks to quickly and affectivly mediate misunderstandings created by miscomunication. It also seeks to decrease the amount of reminders to get tasks completed. When the asset completes the task the other significant will recieve a notification of completed task thus decreaseing the amount of "nagging" reminders. I decided to change the name to the Human Resource Asset Manager to possible broaden its appeal and application. The purpose remains the same as before, a tool to decrease nagging.
 
 # Use phone for Development - I only used an Android Phone - Samsu
 

@@ -8,7 +8,7 @@
  * @format
  */
 
-import type {Node} from 'react';
+import {Node} from 'react';
 
 import {
 TouchableOpacity,  
