@@ -35,7 +35,7 @@ I actually have a lot more experince with Vue.js than I do with React so I wante
     - Languages
       - [Objective-C](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html)
       - [Swift](https://www.apple.com/swift/)
-- Cross Platform Developmet
+- Cross Platform Development
   - Native Code Compilers
     - [Flutter](https://flutter.dev/)
     - [Kotlin](https://kotlinlang.org/)
