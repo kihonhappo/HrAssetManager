@@ -48,7 +48,7 @@ I actually have a lot more experince with Vue.js than I do with React so I wante
 
 ## Video Walk Through
 
-[Hr Asset Manager Demo Video](http://youtube.link.goes.here)
+[Hr Asset Manager Demo Video](https://youtu.be/CKvG7wsDmDI)
 
 # Development Environment (2023)
 
