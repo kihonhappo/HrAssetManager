@@ -11,7 +11,6 @@ The original name for this application was The Significant Other Usage Meter and
 
 - [Get Galaxy S23 Ultra Skin](https://developer.samsung.com/galaxy-emulator-skin/galaxy-s.html)
 - [Load Skin into Android Studio](https://developer.samsung.com/galaxy-emulator-skin/guide.html)
--
 
 # Purpose
 
@@ -79,6 +78,8 @@ I actually have a lot more experince with Vue.js than I do with React so I wante
   - Cause: I added react-native-sqlite-storage after initial setup - the module wasn't registered by TypeScript
   - Fix: cd hr_asset_manager then npm i --save-dev @types/react-native-sqlite-storage
 
+-Issue: Couldn't get SQLite to work. I need more time to set it up and properly trouble shoot.
+
 # Useful Websites
 
 - [React Native](https://reactnative.dev/)
@@ -88,8 +89,5 @@ I actually have a lot more experince with Vue.js than I do with React so I wante
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
 - Integrate with Google Tasks and Calendar
-- Item 2
-- Item 3
+- Add cloud Database
